@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: multa, sans-serif;
+        height: 100vh;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        color: lightslategray;
+        font-size: 0.9rem;
+        background-color: rgb(50, 50);
+      }
+
+      table {
+        border-collapse: collapse;
+        box-shadow: 0 5px 10px rgb(74, 80, 82);
+        background-color: white;
+        text-align: left;
+        overflow: hidden;
+      }
+
+      thead {
+        box-shadow: 0 5px 10px rgb(215, 215, 219);
+      }
+
+      th {
+        padding: 1rem 2rem;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+        font-size: 0.7rem;
+        font-weight: 900;
+      }
+
+      td {
+        padding: 1rem 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>IMTAP1</td>
+          <td>Jeremiah</td>
+          <td>tiptop@gmail.com</td>
+          <td>0243556759</td>
+          <td><p class="status status-unavailable">Unavailable</p></td>
+        </tr>
+
+        <tr>
+          <td>IMTAP2</td>
+          <td>Bright</td>
+          <td>bright419@gmail.com</td>
+          <td>0543666430</td>
+          <td><p class="status status-available">Available</p></td>
+        </tr>
+
+        <tr>
+          <td>IMTAP3</td>
+          <td>Papa Yaw</td>
+          <td>yawpapa666@gmail.com</td>
+          <td>0444766437</td>
+          <td><p class="status status-available">Available</p></td>
+        </tr>
+
+        <tr>
+          <td>IMTAP4</td>
+          <td>Micheal</td>
+          <td>micheal902@gmail.com</td>
+          <td>0400376543</td>
+          <td><p class="status status-uavailable">Unavailable</p></td>
+        </tr>
+
+        <tr>
+          <td>IMTAP5</td>
+          <td>Khadija</td>
+          <td>dijha419@yahoo.com</td>
+          <td>0555980234</td>
+          <td><p class="status status-available">Available</p></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
